@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scaler {
+    transition: transform 0.2s ease;
+}
+
+.scaler:hover {
+    transform: scale(1.01);
+}
+
+.moveDown{
+    animation: moveDown 0.5s ease;
+}
+
+@keyframes moveDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
