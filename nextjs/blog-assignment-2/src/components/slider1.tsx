@@ -38,17 +38,17 @@ const slider = ({ arr }: { arr: Props[] }) => {
 
                             <div className="w-full flex justify-between items-start absolute top-0 sm:p-6 p-3">
                                 <div className="">
-                                    <div className="font-medium text-xs px-4 py-1 border-[1px] bg-white w-fit rounded-full sm:mb-2 mb-1">{new Intl.DateTimeFormat('en-GB', { month: 'short', day: '2-digit', year: 'numeric' }).format(new Date()).replace(/(\d+)([a-zA-Z]+)/, '$2 $1').replace(/ /g, ' ').replace(/,/, ', ')}</div>
-                                    <div className="font-medium text-xs px-4 py-1 border-[1px] text-white border-white w-fit rounded-full mix-blend-difference">&bull; {data.category}</div>
+                                    <div className="font-medium sm:text-sm text-xs sm:px-6 px-4 sm:py-2 py-1 border-[1px] bg-white w-fit rounded-full sm:mb-2 mb-1">{new Intl.DateTimeFormat('en-GB', { month: 'short', day: '2-digit', year: 'numeric' }).format(new Date()).replace(/(\d+)([a-zA-Z]+)/, '$2 $1').replace(/ /g, ' ').replace(/,/, ', ')}</div>
+                                    <div className="font-medium sm:text-sm text-xs sm:px-6 px-4 sm:py-2 py-1 border-[1px] text-white border-white w-fit rounded-full mix-blend-difference">&bull; {data.category}</div>
                                 </div>
 
-                                <div className="sm:text-3xl text-xl tracking-tight sm:leading-[30px] leading-6 w-fit h-fit flex flex-col">
-                                    <span className="px-4 py-1 bg-white rounded-t-xl text-xs font-semibold w-fit">	&bull; {data.category}</span>
-                                    <span className="sm:px-4 px-3 bg-white sm:py-3 py-2 inline-block sm:w-72 w-40 text-left rounded-2xl rounded-tl-none">{data.text}</span>
+                                <div className="tracking-tight w-fit md:leading-2 leading-5 h-fit flex flex-col">
+                                    <span className="px-4 py-1 bg-white rounded-t-xl text-sm font-semibold w-fit">&bull; {data.category}</span>
+                                    <span className="font-[sauda] font-semibold sm:text-5xl text-2xl leading-5 sm:px-4 px-3 bg-white sm:py-3 py-2 inline-block md:w-[400px] w-60 text-left rounded-2xl rounded-tl-none">{data.text}</span>
                                 </div>
                             </div>
                             <Link href={`/articles/${data.id}`}>
-                                <div className="absolute bottom-0 right-0 md:m-6 m-3 bg-white rounded-full p-3 shadow-md scaler"><MdArrowOutward /></div>
+                                <div className="absolute bottom-0 right-0 md:m-6 m-3 bg-white rounded-full sm:p-4 font-bold p-3 shadow-md scaler"><MdArrowOutward /></div>
                             </Link>
                         </SwiperSlide>
                     )

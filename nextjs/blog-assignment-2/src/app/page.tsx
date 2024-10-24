@@ -31,7 +31,7 @@ export default function Home() {
 
       <div className="xl:w-[60%] md:w-[70%] w-full flex flex-col md:justify-between md:p-8 md:pr-4 sm:p-4 p-2">
         <div className="sm:flex items-end gap-1 italic tracking-tighter sm:py-0 py-5">
-          <h1 className="sm:text-6xl text-5xl font-semibold">Best of the week</h1>
+          <h1 className="sm:text-7xl text-5xl font-semibold">Best of the week</h1>
           <Link href={"/articles"}>
             <span className="flex items-end gap-1 cursor-pointer text-sm pb-[2px]">see all posts <LuMoveRight /></span>
           </Link>
@@ -46,14 +46,14 @@ export default function Home() {
 
         <div className="w-full md:h-1/2 h-52 bg-[#B8D3D7] rounded-3xl md:p-6 p-3 relative scaler shadow-[#adb1b6] sm:shadow-lg shadow-md">
           <div className="flex justify-between items-center">
-            <div className="font-medium text-sm md:px-4 md:py-2 px-3 py-1 border-[1px] border-black w-fit rounded-full">&bull; ADS</div>
+            <div className="font-medium sm:text-base text-sm md:px-6 md:py-2 px-3 py-1 border-[1px] border-black w-fit rounded-full">&bull; ADS</div>
             <div className="md:p-4 p-2 bg-white rounded-full w-fit">
               <HiOutlinePlus />
             </div>
           </div>
-          <h2 className="font-medium leading-5 md:my-3 my-1 sm:text-md text-sm">Become A <br /> BROADCASTMEMBER</h2>
-          <h1 className="font-medium md:text-3xl sm:text-2xl text-xl tracking-tighter md:leading-7 leading-5 my-3">Real talk in a <br /> Corporate World</h1>
-          <span className="absolute bottom-0 right-0 p-6 underline text-sm font-medium cursor-pointer">Learn more</span>
+          <h2 className="font-medium leading-5 md:my-3 my-1 sm:text-xl text-sm">Become A <br /> BROADCASTMEMBER</h2>
+          <h1 className="font-[450] md:text-5xl sm:text-3xl text-xl tracking-tighter md:leading-9 leading-5 my-3">Real talk in a <br /> Corporate World</h1>
+          <span className="absolute bottom-0 right-0 sm:p-8 p-6 underline md:text-md text-sm font-medium cursor-pointer">Learn more</span>
         </div>
 
         <div className="w-full md:h-1/2 h-52 bg-black rounded-3xl overflow-hidden relative scaler flex justify-center items-end shadow-[#adb1b6] sm:shadow-lg shadow-md sm:mt-0 mt-2">

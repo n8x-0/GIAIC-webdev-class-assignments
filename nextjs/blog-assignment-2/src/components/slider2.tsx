@@ -55,14 +55,14 @@ const slider2 = () => {
                 return (
                     <SwiperSlide key={index}>
                         <Link href={`/articles/${data.id}`}>
-                            <div className='w-full h-60 overflow-hidden relative rounded-3xl shadow-md cursor-pointer'>
+                            <div className='w-full h-64 overflow-hidden relative rounded-3xl shadow-md cursor-pointer'>
                                 <div className="absolute top-0 right-0 md:m-6 m-3 bg-white rounded-full p-3 shadow-md scaler">
                                     <MdArrowOutward />
                                 </div>
                                 <Image src={data.image} alt={data.image} width={800} height={800} className='w-full h-full object-cover' />
                             </div>
-                            <h2 className='text-xs font-medium mt-2 mb-1'>&bull; {data.category}</h2>
-                            <h1 className='text-xl font-medium leading-6 tracking-tighter'>
+                            <h2 className='md:text-lg text-sm font-medium mt-2 sm:mb-1'>&bull; {data.category}</h2>
+                            <h1 className='md:text-3xl text-xl font-medium leading-6 tracking-tighter'>
                                 {data.text}
                             </h1>
                         </Link>
