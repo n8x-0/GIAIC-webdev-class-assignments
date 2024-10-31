@@ -6,25 +6,25 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 
 const midSecCards = [
     {
-        image: "/midsecCards/popularProducts.png",
+        image: "/midSecCards/popularProducts.png",
         title: "Popular Products",
         color: "bg-[#FFFFFF]",
         border: "border-black"
     },
     {
-        image: "/midsecCards/ipadPro.png",
+        image: "/midSecCards/ipadPro.png",
         title: "Ipad Pro",
         color: "bg-[#F9F9F9]",
         border: "border-black"
     },
     {
-        image: "/midsecCards/samsung.png",
+        image: "/midSecCards/samsung.png",
         title: "Samsung Galaxy",
         color: "bg-[#EAEAEA]",
         border: "border-black"
     },
     {
-        image: "/midsecCards/macbook.png",
+        image: "/midSecCards/macbook.png",
         title: "Macbook Pro",
         color: "bg-[#2C2C2C] text-white border-white",
         border: "border-white"
