@@ -20,7 +20,7 @@ const PageTwo = () => {
                     <div className="flex flex-1 md:flex-row flex-col">
                         <div className="xl:p-0 p-10 bg-[#EDEDE1] md:w-1/2 w-full h-full relative md:block flex justify-center items-center md:flex-row flex-col">
                             <div className="sm:w-60 sm:h-60 w-40 h-40 md:absolute -left-32 top-1/2 md:-translate-y-1/2">
-                                <Image src={"/pg3Airpods.png"} alt="pg3Airpods.png" width={500} height={500} className="w-full h-full object-cover" />
+                                <Image src={"/cardImages/pg3Airpods.png"} alt="pg3Airpods.png" width={500} height={500} className="w-full h-full object-cover" />
                             </div>
                             <div className="h-full w-full flex md:translate-x-[20%] justify-center items-center md:text-left text-center mt-4 md:mt-0">
                                 <div className="md:w-1/2 md:pr-6">
