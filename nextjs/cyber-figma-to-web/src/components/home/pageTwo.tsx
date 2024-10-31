@@ -25,7 +25,7 @@ const PageTwo = () => {
                             <div className="h-full w-full flex md:translate-x-[20%] justify-center items-center md:text-left text-center mt-4 md:mt-0">
                                 <div className="md:w-1/2 md:pr-6">
                                     <h1 className="md:text-4xl text-3xl font-extralight">Apple AirPods <b className="font-medium">Max</b></h1>
-                                    <p className="text-[#909090] mt-2">Computational audio. Listen, it's powerful</p>
+                                    <p className="text-[#909090] mt-2">Computational audio. Listen, it&spod;s powerful</p>
                                 </div>
                             </div>
                         </div>
