@@ -28,7 +28,7 @@ const PageFour = () => {
     return (
         <div className="flex flex-col justify-center items-center">
             <div className="lg:w-[80%] py-20 px-4">
-                <h1 className="w-full text-2xl font-medium">Discounts up to -50%</h1>
+                <h1 className="w-full sm:text-2xl text-xl font-medium">Discounts up to -50%</h1>
                 <div className="w-full flex justify-around items-center flex-wrap mt-6 md:gap-5 gap-3">
                     <Card arr={pageFourCards} />
                 </div>

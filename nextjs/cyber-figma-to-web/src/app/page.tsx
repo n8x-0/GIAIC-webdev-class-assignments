@@ -7,7 +7,7 @@ import ShopNowCards from "@/components/home/shopNowCards";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <PageOne />
       <PageTwo />
       <BrowseCategorySec />

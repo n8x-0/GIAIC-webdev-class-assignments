@@ -47,7 +47,7 @@ const PageThree = () => {
     return (
         <div className="w-full min-h-screen flex justify-center items-center py-20 px-4">
             <div className="lg:w-[80%] flex justify-center items-center flex-col">
-                <div className="flex gap-6 w-full font-medium text-lg text-[#888888]">
+                <div className="flex sm:gap-6 gap-3 w-full font-medium sm:text-lg text-sm text-[#888888]">
                     <div className="hover:text-black hover:underline hover:font-semibold decoration-2 underline-offset-4 cursor-pointer">New Arrival</div>
                     <div className="hover:text-black hover:underline hover:font-semibold decoration-2 underline-offset-4 cursor-pointer">Bestseller</div>
                     <div className="hover:text-black hover:underline hover:font-semibold decoration-2 underline-offset-4 cursor-pointer">Featured Products</div>
